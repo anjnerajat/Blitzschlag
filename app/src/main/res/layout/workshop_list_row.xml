@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:padding="5dp">
+
+            <com.example.dell.blitzschlag.Classes.FeedImageView
+                android:id="@+id/workshop_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/description_pallette_bg"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                android:layout_alignParentLeft="true"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@+id/workshop_image"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/workshop_title"
+                    android:textColor="@color/event_title"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:ems= "9" />
+
+                <TextView
+                    android:id="@+id/workshop_venue"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/event_access"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/workshop_title"/>
+
+                <TextView
+                    android:id="@+id/workshop_start_time"
+                    android:textColor="@color/event_access"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/workshop_venue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/workshop_duration"
+                    android:layout_below="@+id/workshop_start_time"
+                    android:textColor="@color/event_access"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/workshop_fees"
+                    android:layout_below="@+id/workshop_duration"
+                    android:textColor="@color/event_access"/>
+
+                <TextView
+                    android:id="@+id/workshop_date"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_border_black_24dp"
+                    android:layout_below="@+id/workshop_date"
+                    android:id="@+id/remember_star"
+                    android:layout_alignParentRight="true"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_black_24dp"
+                    android:layout_below="@+id/workshop_date"
+                    android:id="@+id/remembered_star"
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

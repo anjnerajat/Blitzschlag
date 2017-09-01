@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:clickable="true"
+            android:padding="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/schedule_title"
+                android:textColor="@color/event_title"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:ems= "9"/>
+
+            <TextView
+                android:id="@+id/schedule_venue"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/event_access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/schedule_title"/>
+
+            <TextView
+                android:id="@+id/schedule_start_time"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_contact"
+    tools:context="com.example.dell.blitzschlag.Contact.ContactActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/activity_bg">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_pallette"
+                android:background="@color/description_pallette_bg"
+                android:padding="12dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:elevation="5dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about"
+                    android:text="Festival Coordinator"
+                    android:textSize="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/pallette_title"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_below="@+id/about"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/divider"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description"
+                    android:layout_below="@+id/divider"
+                    android:layout_marginTop="5dp"
+                    android:text="Albus Dumbledore:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description1"
+                    android:layout_below="@+id/divider"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/description"
+                    android:layout_marginTop="5dp"
+                    android:text="Tyrion Lannister:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/video_pallette"
+                android:background="@color/description_pallette_bg"
+                android:padding="12dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:elevation="5dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Video"
+                    android:text="Marketing"
+                    android:textSize="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/pallette_title"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_below="@+id/Video"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/divider1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/video_description"
+                    android:layout_below="@+id/divider1"
+                    android:layout_marginTop="5dp"
+                    android:text="Tom Riddle:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/video_description1"
+                    android:layout_below="@+id/divider1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/video_description"
+                    android:layout_marginTop="5dp"
+                    android:text="Jon Snow:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/another_pallette"
+                android:background="@color/description_pallette_bg"
+                android:padding="12dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:elevation="5dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another_title"
+                    android:text="Events"
+                    android:textSize="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/pallette_title"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_below="@+id/another_title"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/divider2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another_video_description"
+                    android:layout_below="@+id/divider2"
+                    android:layout_marginTop="5dp"
+                    android:text="Chandler Bing:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another_video_description1"
+                    android:layout_below="@+id/divider2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/another_video_description"
+                    android:layout_marginTop="5dp"
+                    android:text="Rachel Green:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/another1_pallette"
+                android:background="@color/description_pallette_bg"
+                android:padding="12dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:elevation="5dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another1_title"
+                    android:text="Media and Publicity"
+                    android:textSize="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/pallette_title"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_below="@+id/another1_title"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/divider3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another1_video_description"
+                    android:layout_below="@+id/divider3"
+                    android:layout_marginTop="5dp"
+                    android:text="Monica E Geller:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another1_video_description1"
+                    android:layout_below="@+id/divider3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/another1_video_description"
+                    android:layout_marginTop="5dp"
+                    android:text="Ross Geller:\n+91-7073790277\n2014ucp1090@mnit.ac.in"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/another2_pallette"
+                android:background="@color/description_pallette_bg"
+                android:padding="12dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:elevation="5dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another2_title"
+                    android:text="Finance"
+                    android:textSize="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/pallette_title"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_below="@+id/another2_title"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/divider4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another2_video_description"
+                    android:layout_below="@+id/divider4"
+                    android:layout_marginTop="5dp"
+                    android:text="Harry Potter:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/another2_video_description1"
+                    android:layout_below="@+id/divider4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/another2_video_description"
+                    android:layout_marginTop="5dp"
+                    android:text="Hermione Granger:\n+91-7073790277\nanjnerajat@gmail.com"
+                    android:textSize="14dp"
+                    android:textColor="@color/pallette_description" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

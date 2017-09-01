@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_splash"
+    tools:context="com.example.dell.blitzschlag.SplashActivity"
+    android:background="@color/FDFDFD">
+
+<!--    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="35dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:text="BLITZSCHLAG"
+            android:id="@+id/textbox"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

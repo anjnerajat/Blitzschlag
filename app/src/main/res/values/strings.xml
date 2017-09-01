@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Blitzschlag</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_individual">Individual</string>
+    <string name="title_activity_workshops">Workshops</string>
+    <string name="title_activity_lectures">Lectures</string>
+    <string name="title_activity_shows">Shows</string>
+    <string name="title_activity_venue">Venue</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_accomodations">Accommodations</string>
+    <string name="title_activity_wishlist">Wishlist</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- Blitzschlag information -->
+    <string name="month">April</string>
+    <string name="day1">April 26</string>
+    <string name="day2">April 27</string>
+    <string name="day3">April 28</string>
+
+    <!-- Welcome slides strings -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Exciting Events</string>
+    <string name="slide_1_desc">Including technical as well as cultural</string>
+
+    <string name="slide_2_title">Amazing Workshops</string>
+    <string name="slide_2_desc">From the best organisers</string>
+
+    <string name="slide_3_title">Night Shows</string>
+    <string name="slide_3_desc">An experience you will never forget</string>
+
+    <string name="slide_4_title">Informative Lectures</string>
+    <string name="slide_4_desc">From the best speakers</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- Navigation drawer strings -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <string name="blitzschlag_description">Blitzschlag is the annual techno-cultural festival organised by MNIT Jaipur where various kinds of events are organised for students to showcase their talent and also various workshops to train students some useful stuff and ofcourse some celebrity nights and cultural shows for fun and rejuvenation.</string>
+    <string name="contact_description">To organise your event and for more queries:\n+91-7073790277\nanjnerajat@gmail.com</string>
+    <string name="about_app">Blitzschlag ia an app providing all Blitzschlag fest related information to the users through a customied User Interface which fetches data from the server thus always providing latest updates of the venue, time and details of the events. Includes other necessities such as accommodation details, teaser video, recent event gallery, sponsors of the fest and also provides user an option to remember or add an event/workshop/lecture to wishlist thus whenever needed user can access the information without having any internet connection.</string>
+    <string name="about_developer">Rajat Anjne, the developer of Blitzschlag app is a third year B.Tech student of Computer Science and Engineering from MNIT Jaipur</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_individual2">Individual2</string>
+    <string name="title_activity_individual3">Individual3</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="google_api_key">AIzaSyBbdT5w3WH2V1T6rY4mG2gLQIbql3nkEi8</string>
+
+
+</resources>

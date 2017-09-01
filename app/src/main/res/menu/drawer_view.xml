@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_code_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/workshops"
+            android:icon="@drawable/ic_important_devices_black_24dp"
+            android:title="Workshops" />
+        <item
+            android:id="@+id/lectures"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="Lectures" />
+        <item
+            android:id="@+id/shows"
+            android:icon="@drawable/ic_music_note_black_24dp"
+            android:title="Shows" />
+
+        <item android:title="Info"
+            android:id="@+id/info">
+            <menu>
+                <item
+                    android:id="@+id/venue"
+                    android:icon="@drawable/ic_location_on_black_24dp"
+                    android:title="Venue" />
+
+                <item
+                    android:id="@+id/schedule"
+                    android:icon="@drawable/ic_schedule_black_24dp"
+                    android:title="Schedule" />
+
+                <item
+                    android:id="@+id/accomodations"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="Accommodations" />
+            </menu>
+        </item>
+
+        <item android:title="Others"
+            android:id="@+id/others">
+            <menu>
+                <item
+                    android:id="@+id/wishlist"
+                    android:icon="@drawable/ic_star_black_24dp"
+                    android:title="Wishlist" />
+
+                <item
+                    android:id="@+id/gallery"
+                    android:icon="@drawable/ic_insert_photo_black_24dp"
+                    android:title="Gallery" />
+
+                <item
+                    android:id="@+id/sponsors"
+                    android:icon="@drawable/ic_restaurant_black_24dp"
+                    android:title="Sponsors" />
+                <item
+                    android:id="@+id/contactus"
+                    android:icon="@drawable/ic_call_black_24dp"
+                    android:title="Contact us" />
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="About" />
+            </menu>
+        </item>
+
+
+    </group>
+
+</menu>
